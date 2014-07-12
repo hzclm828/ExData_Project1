@@ -23,7 +23,7 @@
           lines(Sub_metering_3~Datetime,col='Blue')
           legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n",
                  legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
-                 seg.len=0.5)
+                 seg.len=1,cex=0.7)
           plot(Global_reactive_power~Datetime, type="l", 
                ylab="Global Rective Power",xlab="")
         })
